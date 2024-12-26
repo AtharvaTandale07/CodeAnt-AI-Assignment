@@ -43,7 +43,6 @@ const Sidebar = ({ classname, isMobileMenuOpen }) => {
                     <TbHome className="w-6 h-5" />
                     <span>Repositories</span>
                 </button>
-                
                 {navArray.map((item, key) => (
                     <button 
                         key={item} 
@@ -54,8 +53,6 @@ const Sidebar = ({ classname, isMobileMenuOpen }) => {
                     </button>
                 ))}
             </nav>
-
-            {/* Footer items now only show on desktop */}
             <div className="hidden md:block absolute bottom-0 w-full p-4 space-y-2">
                 <button className="w-full flex items-center space-x-3 px-3 py-2 font-semibold text-gray-700 hover:bg-gray-100 rounded-md">
                     <Phone className="w-6 h-5" />
