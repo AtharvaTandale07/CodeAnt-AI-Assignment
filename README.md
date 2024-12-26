@@ -1,13 +1,5 @@
 # CodeAnt AI Assignment
 
-A React application built with Tailwind CSS for CodeAnt AI assessment.
-
-## Tech Stack
-
-- React.js
-- Tailwind CSS
-- React Router DOM
-
 ## Prerequisites
 
 - Node.js (v14.0.0 or higher)
@@ -36,13 +28,43 @@ npm run dev
 
 ## Project Structure
 
-```
+```plaintext
+public/
+│   CodeAntAllIcon.svg
+│   react.svg
+│
 src/
-├── components/    # React components
-├── pages/         # Page components
-├── styles/        # CSS files
-└── assets/        # Images and other static files
-```
+│
+├── assets/
+│   ├── CodeAntAllIcon.svg
+│   ├── react.svg
+│
+├── components/
+│   ├── Header.jsx
+│   ├── HeroComponent.jsx
+│   ├── MobileHandler.jsx
+│   ├── RepositoryList.jsx
+│   ├── Sidebar.jsx
+│   ├── SignupContent.jsx
+│
+├── pages/
+│   ├── RepositoryPage.jsx
+│   ├── SignupPage.jsx
+│
+├── App.jsx
+├── index.css
+├── main.jsx
+│
+.gitignore
+eslint.config.js
+index.html
+package-lock.json
+package.json
+postcss.config.js
+README.md
+tailwind.config.js
+vite.config.js
+
 
 ## Contributing
 
