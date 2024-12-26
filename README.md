@@ -64,17 +64,5 @@ postcss.config.js
 README.md
 tailwind.config.js
 vite.config.js
-
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-[Choose an appropriate license]
+```
 ![Screenshot 2024-12-26 192143](https://github.com/user-attachments/assets/2ce59252-b7b8-4394-9fe8-2bd05e6dac89)
