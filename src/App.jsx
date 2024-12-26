@@ -1,14 +1,15 @@
-import React from 'react';
-import SignupPage from './pages/SignupPage';
+import React, { lazy, Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import RepositoryPage from './pages/RepositoryPage';
-
+const SignupPage = lazy(() => import('./pages/SignupPage'));
+const RepositoryPage = lazy(() => import('./pages/RepositoryPage'));
 function App() {
   return (
-  <Routes>
-    <Route path="/" element={<SignupPage />} />
-    <Route path="/repositories" element={<RepositoryPage />} />
-  </Routes>);
+    <Suspense>
+      <Routes>
+        <Route path="/" element={<SignupPage />} />
+        <Route path="/repositories" element={<RepositoryPage />} />
+      </Routes>
+    </Suspense>);
 };
 
 export default App;
