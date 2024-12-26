@@ -1,7 +1,7 @@
 # CodeAnt AI Assignment
 
 I have used all good practices while creating this assignment. The entire application is completely is responsive on all devices. I also ensured the frontend components work seamlessly. I have also implemented 
-lazy loading and code spliting for optimation of app. Also in order to make your task easy I have deployed the application so that you can examine it easily without any kind of the setup required on your local machine, I have attached the live app link below and also mentioned the steps to run the code locally if you don't want to see live demo as Vercel demands Sign In.
+lazy loading and code spliting for optimation of app. Also in order to make your task easy I have deployed the application so that you can examine it easily without any kind of the setup required on your local machine, I have attached the live app link below and also mentioned the steps to run the code locally if you don't want to see live demo as Vercel demands Sign In. I hope that you will like my project.
 
 ## Live Link: [https://code-ant-ai-assignment-ten.vercel.app/](https://code-ant-ai-assignment-ten.vercel.app/)
 
